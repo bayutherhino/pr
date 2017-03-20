@@ -1,0 +1,49 @@
+.main-wrapper {
+  padding: 20px 20px 20px 20px;
+  height: 100vh;
+}
+
+.text-btn-wrapper {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  width: 40%;
+  padding: 10px 20px 10px 20px;
+  margin-left: 50vh;
+  margin-top:10vh;
+}
+
+
+.btn-wrapper {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.h1-text {
+  display: inline-block;
+  color: white;
+  width: 40%;
+  height: 50%;
+  margin-left: 45px;
+  padding: 5px 5px 5px 5px;
+}
+
+.pmBtn {
+  cursor: pointer;
+  width: 2%;
+  background-color: lightgrey;
+  padding: 10px 30px 10px 20px;
+  border: solid white 2px;
+  text-decoration: none;
+}
+
+.pmBtn:hover {
+  background-color: gray;
+}
+
+.pmBtn > p {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}

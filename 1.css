@@ -1,0 +1,150 @@
+div.top {
+  width: 40%;
+  height: 100px;
+  margin-left: 15px;
+  padding-top: 10px;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
+div.top-content-money {
+  text-align: center;
+}
+span.bold{
+  font-weight: bold;
+}
+p.top-text {
+  color: white;
+  font-size: 30px;
+}
+
+div.mid {
+  width: 40%;
+  height: 275px;
+  margin-left: 15px;
+  margin-top:20px;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+div.mid-color-indicator {
+  height: 15px;
+  border-bottom-style: solid;
+  border-color: lightgrey;
+}
+
+div.color-indicator {
+  width: 75%;
+  height: 100%;
+  background-color: orange;
+}
+
+div.mid-day-indicator {
+  text-align: left;
+  margin-left: 20px;
+}
+
+div.mid-user-indicator {
+  text-align: left;
+  margin-left: 20px;
+}
+
+div.mid-field-button {
+  margin-left: 20px;
+}
+
+div.mid-href {
+  margin-top:10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+div.mid-input-icon {
+  float: left;
+}
+
+div.mid-input-icon > i{
+  position: absolute;
+  display: block;
+  transform: translate(0, -15%);
+  top: 50%;
+  pointer-events: none;
+  width: 25px;
+  text-align: center;
+	font-style: normal;
+  font-size: 35px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.mid-text{
+  color: grey;
+  font-size: 20px;
+}
+
+span.timeleft {
+  font-weight: bold;
+  color: orange;
+}
+
+input[type=text] {
+  color: black;
+  height: 60px;
+  border-radius: 10px;
+  border-color: lightgrey;
+  font-size: 35px;
+  width: 25%;
+  padding-left: 30px;
+}
+
+button.mid-button {
+  margin-left: 30px;
+  padding-top: 10px;
+  background-color: green;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 25px;
+  color: white;
+  width: 40%;
+}
+
+div.bot {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 40%;
+}
+
+button.bot_button {
+  background-color: white;
+  height: 70px;
+  width: 45%;
+  border-radius: 10px;
+  border-color: lightgrey;
+  font-size: 25px;
+  color: grey;
+}
+
+button#left {
+  margin-right: 15px;
+  margin-left: -5px;
+  float : left;
+}
+
+button#right {
+  margin-left: 15px;
+  float: right;
+}
+
+div.triangle {
+  float : right;
+  margin-right: 50px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid black;
+}
