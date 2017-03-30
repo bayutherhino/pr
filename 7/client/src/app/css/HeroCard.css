@@ -1,0 +1,93 @@
+.hero-card {
+  display: inline-block;
+  background-color: lightpink;
+  border-width: 4px;
+  border-color: lightpink;
+  border-style: solid;
+  width:  270px;
+  height: 410px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 10px;
+  overflow-y: hidden;
+}
+
+.hero-card > img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top:15px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.hero-card > h1 {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-card > h1:hover {
+  color: #636563;
+}
+
+.hero-card > h2 {
+  text-align: center;
+  color: white;
+}
+
+.hero-card > div.power-list > p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.delete-button{
+  float:right;
+  overflow: auto;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.delete-button > p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.delete-button > p:hover {
+  color: #636563;
+}
+
+.edit-form {
+  margin-top: 20%;
+}
+
+.edit-form > input[type=text] {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 14px 14px 14px 14px;
+  font-size: 14px;
+  background-color: white;
+  color: lightpink;
+  border: none;
+}
+
+.edit-form > input[type=text]:hover {
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.edit-form > input[type=submit] {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  background-color: white;
+  color: lightpink;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5px;
+}

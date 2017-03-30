@@ -1,0 +1,110 @@
+.control-bar {
+  display: inline-table;
+  padding: 10px 10px 10px 10px;
+}
+
+select {
+
+  /* styling */
+  background-color: white;
+  border: thin solid lightpink;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /*arrow*/
+  background-image:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, white 50%, transparent 50%),
+    linear-gradient(to right, white, white);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, white, white);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: white;
+  outline: 0;
+}
+
+select option:hover {
+    box-shadow: 0 0 10px 100px  #636563 inset;
+}
+
+.select-bar {
+  display: inline-table;
+  padding: 10px 10px 10px 10px;
+  width: 160px;
+  background-color: lightpink;
+  color : white;
+}
+
+.search-form {
+  display: inline-table;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+  border-left-width: 1px;
+  border-left-color: lightpink;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-color: lightpink;
+  border-right-style: solid;
+}
+
+.search-form > select {
+  margin-left: 5px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightpink;
+  color : white;
+  width: 160px;
+}
+
+.search-form > input[type=text] {
+  padding: 15px 15px 15px 15px;
+  color: white;
+  background-color: lightpink;
+  border: none;
+  font-size: 15px;
+}
+
+.search-form > input[type=submit] {
+  margin-left: 5px;
+  padding: 10px 20px;
+  background-color: lightpink;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}

@@ -1,0 +1,52 @@
+.button-card {
+  display: block;
+  background-color: white;
+  border-width: 4px;
+  border-color: lightpink;
+  border-style: solid;
+  width:  580px;
+  height: 600px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-card > h1 {
+  color: lightpink;
+  font-size: 40px;
+  text-align: center;
+  margin-top:10px;
+}
+
+div.button-card > form >input[type=text]{
+  padding: 20px 15px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+div.button-card > form > input[type=submit]{
+  padding: 20px 15px;
+  margin-left: 45px;
+
+}
+
+.button-card > form > input{
+  margin-top: 25px;
+  width: 80%;
+}
+
+.add-hero-form > input[type=text]{
+  color: white;
+  background-color: lightpink;
+  border: none;
+}
+
+.add-hero-form > input[type=submit]{
+  color: white;
+  background-color: lightpink;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
